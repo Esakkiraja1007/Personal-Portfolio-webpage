@@ -8,7 +8,7 @@ The project is built using reusable React components and demonstrates practical 
 
 ## Live Demo
 
-🔗 **Live Deployment:** [[https://your-portfolio-domain.vercel.app]](https://personal-portfolio-webpage-navy.vercel.app/)
+🔗 **Live Deployment:** [[https://your-portfolio-domain.vercel.app]]
 
 ---
 
