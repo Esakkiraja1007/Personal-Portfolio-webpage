@@ -1,0 +1,39 @@
+/* Master App Container */
+.portfolio-app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+/* Main Content Area */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+main > section {
+  width: min(100%, var(--content-width));
+  margin-inline: auto;
+}
+
+/* Global Reusable Section Container */
+.section-container {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: var(--section-space) var(--content-gutter);
+}
+
+/* Section Title Utility */
+.section-heading {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 48px;
+  color: var(--text-main);
+}
