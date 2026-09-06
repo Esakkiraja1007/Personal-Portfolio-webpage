@@ -2,7 +2,6 @@ import { useState } from 'react';
 import '../style/Contact.css';
 
 export default function Contact() {
-  // Controlled input state
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -12,7 +11,6 @@ export default function Contact() {
 
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  // Single handler for all form fields
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -24,16 +22,13 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Basic required check
     if (!formData.name || !formData.email || !formData.message) {
       alert('Please fill out all required fields.');
       return;
     }
 
-    // Simulate successful form submission
     setIsSubmitted(true);
 
-    // Reset input fields
     setFormData({
       name: '',
       email: '',
@@ -41,7 +36,6 @@ export default function Contact() {
       message: '',
     });
 
-    // Clear confirmation after 4 seconds
     setTimeout(() => {
       setIsSubmitted(false);
     }, 4000);
@@ -57,17 +51,19 @@ export default function Contact() {
     },
     {
       id: 2,
+      icon: '💼',
+      title: 'Phone Number',
+      value: '9360210804',
+      href: null,
+      
+    },
+    {
+      id: 3,
+     
       icon: '📍',
       title: 'Location',
       value: 'Tamil Nadu, India',
       href: null,
-    },
-    {
-      id: 3,
-      icon: '💼',
-      title: 'Profiles',
-      value: 'GitHub',
-      href: 'https://github.com/Esakkiraja1007',
     },
   ];
 
@@ -112,7 +108,6 @@ export default function Contact() {
 
         {/* Right Side: Controlled Form */}
         <div className="contact-form-panel">
-          {/* Conditional rendering for success notification */}
           {isSubmitted && (
             <div className="success-alert">
               ✅ Thank you! Your message has been sent successfully.

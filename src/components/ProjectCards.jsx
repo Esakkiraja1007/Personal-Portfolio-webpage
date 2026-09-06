@@ -10,45 +10,46 @@ export default function ProjectCards({
 }) {
   return (
     <div className="project-card">
-      <div className="project-header">
-        <h3 className="project-title">{title}</h3>
-        
-        {/* Link Icons */}
-        <div className="project-actions">
-          <a
-            href={githubUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="action-link"
-            title="View GitHub Code"
-          >
-            GitHub &rarr;
-          </a>
+      <div className="project-body">
+        <div className="project-header">
+          <h3 className="project-title">{title}</h3>
+        </div>
 
-          {/* Conditional rendering using && */}
-          {liveUrl && (
-            <a
-              href={liveUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="action-link live-btn"
-              title="View Live Site"
-            >
-              Live Demo &rarr;
-            </a>
-          )}
+        <p className="project-description">{description}</p>
+
+        {/* Tech Stack Badges */}
+        <div className="tech-tags-list">
+          {techStack.map((tech) => (
+            <span key={tech} className="tech-tag-badge">
+              {tech}
+            </span>
+          ))}
         </div>
       </div>
 
-      <p className="project-description">{description}</p>
+      {/* Action Buttons: Positioned Below Tech Stack */}
+      <div className="project-actions">
+        <a
+          href={githubUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="action-link"
+          title="View GitHub Code"
+        >
+          GitHub &rarr;
+        </a>
 
-      {/* Rendering list of tech tags using map with key */}
-      <div className="tech-tags-list">
-        {techStack.map((tech) => (
-          <span key={tech} className="tech-tag-badge">
-            {tech}
-          </span>
-        ))}
+        {liveUrl && (
+          <a
+            href={liveUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="action-link live-btn"
+            title="View Live Site"
+          >
+            Live Demo &rarr;
+          </a>
+        )}
       </div>
     </div>
   );
