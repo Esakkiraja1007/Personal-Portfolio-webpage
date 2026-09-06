@@ -8,7 +8,7 @@ The project is built using reusable React components and demonstrates practical 
 
 ## Live Demo
 
-[🔗Live Deployment:](https://your-portfolio-domain.vercel.app)
+[🔗Live Deployment:](https://personal-portfolio-webpage-navy.vercel.app/)
 
 ---
 
@@ -186,16 +186,20 @@ Personal-Portfolio-webpage/
 
 
 ### Home
-<img width="100%" alt="Home Section" src="[https://github.com/user-attachments/assets/7e759a4d-b6c0-48b9-bcbc-9d5a628d8f07](https://github.com/user-attachments/assets/7e759a4d-b6c0-48b9-bcbc-9d5a628d8f07)" />
+<img width="1897" height="860" alt="Screenshot 2026-09-06 191934" src="https://github.com/user-attachments/assets/9ace32e4-0018-4aa9-b88b-551df09fc43a" />
+
 
 ### About
-<img width="100%" alt="About Section" src="[https://github.com/user-attachments/assets/ac1023ba-2582-4807-b498-ef7f31ea689a](https://github.com/user-attachments/assets/ac1023ba-2582-4807-b498-ef7f31ea689a)" />
+<img width="1907" height="867" alt="Screenshot 2026-09-06 191956" src="https://github.com/user-attachments/assets/346e6844-f1c2-40fa-b4ba-29cccf90be69" />
+
 
 ### Skills
-<img width="100%" alt="Skills Section" src="[https://github.com/user-attachments/assets/2d2c9a72-5b79-48f7-9138-b0bd3832feeb](https://github.com/user-attachments/assets/2d2c9a72-5b79-48f7-9138-b0bd3832feeb)" />
+<img width="1915" height="872" alt="Screenshot 2026-09-06 192005" src="https://github.com/user-attachments/assets/1112df02-6f28-41d3-b75e-3732014e1760" />
+
 
 ### Projects
-<img width="100%" alt="Projects Section" src="[https://github.com/user-attachments/assets/715f2b22-db44-4a69-a9f7-409c40485a8f](https://github.com/user-attachments/assets/715f2b22-db44-4a69-a9f7-409c40485a8f)" />
+<img width="1897" height="863" alt="Screenshot 2026-09-06 192014" src="https://github.com/user-attachments/assets/18796168-9261-4cdf-b083-6e7107fa66f9" />
+
 
 ---
 
