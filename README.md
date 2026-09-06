@@ -8,7 +8,7 @@ The project is built using reusable React components and demonstrates practical 
 
 ## Live Demo
 
-🔗 **Live Deployment:** [[https://your-portfolio-domain.vercel.app]]
+[🔗Live Deployment:](https://your-portfolio-domain.vercel.app)
 
 ---
 
@@ -185,29 +185,17 @@ Personal-Portfolio-webpage/
 ## Screenshots
 
 
-```markdown
 ### Home
-
-![Home Section](<img width="1897" height="860" alt="Screenshot 2026-09-06 191934" src="https://github.com/user-attachments/assets/7e759a4d-b6c0-48b9-bcbc-9d5a628d8f07" />
-)
+<img width="100%" alt="Home Section" src="[https://github.com/user-attachments/assets/7e759a4d-b6c0-48b9-bcbc-9d5a628d8f07](https://github.com/user-attachments/assets/7e759a4d-b6c0-48b9-bcbc-9d5a628d8f07)" />
 
 ### About
+<img width="100%" alt="About Section" src="[https://github.com/user-attachments/assets/ac1023ba-2582-4807-b498-ef7f31ea689a](https://github.com/user-attachments/assets/ac1023ba-2582-4807-b498-ef7f31ea689a)" />
 
-![About Section]<img width="1907" height="867" alt="Screenshot 2026-09-06 191956" src="https://github.com/user-attachments/assets/ac1023ba-2582-4807-b498-ef7f31ea689a" />
-)
 ### Skills
+<img width="100%" alt="Skills Section" src="[https://github.com/user-attachments/assets/2d2c9a72-5b79-48f7-9138-b0bd3832feeb](https://github.com/user-attachments/assets/2d2c9a72-5b79-48f7-9138-b0bd3832feeb)" />
 
-![Skills Section](<img width="1915" height="872" alt="Screenshot 2026-09-06 192005" src="https://github.com/user-attachments/assets/2d2c9a72-5b79-48f7-9138-b0bd3832feeb" />
-
-)
-
-### Project
-
-![Project Section](<img width="1897" height="863" alt="Screenshot 2026-09-06 192014" src="https://github.com/user-attachments/assets/715f2b22-db44-4a69-a9f7-409c40485a8f" />
-
-)
-
-```
+### Projects
+<img width="100%" alt="Projects Section" src="[https://github.com/user-attachments/assets/715f2b22-db44-4a69-a9f7-409c40485a8f](https://github.com/user-attachments/assets/715f2b22-db44-4a69-a9f7-409c40485a8f)" />
 
 ---
 
@@ -255,8 +243,8 @@ This project helped me practice:
 
 Frontend Developer | 2026 IT Graduate
 
-* GitHub: [Esakkiraja1007]([https://github.com/Esakkiraja1007](https://github.com/Esakkiraja1007))
-* LinkedIn: [Esakki Raja]([https://www.linkedin.com/in/esakki-raja1015/)](https://www.linkedin.com/in/esakki-raja1015/)
+* [GitHub:](https://github.com/Esakkiraja1007)
+* [LinkedIn:](https://www.linkedin.com/in/esakki-raja1015/)
 
 ---
 
