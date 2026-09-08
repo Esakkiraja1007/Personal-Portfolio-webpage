@@ -52,15 +52,15 @@
   display: grid;
   grid-template-columns: 0.95fr 1.05fr;
   gap: 32px;
-  align-items: start;
+  align-items: stretch; /* Stretches both columns to matching equal height */
   width: 100%;
 }
 
-/* Left: Info Panel */
+/* Left: Info Panel (Vertically Centered) */
 .contact-info-panel {
   background: linear-gradient(135deg, #1b2435 0%, #121a2a 100%);
   border-radius: 20px;
-  padding: 32px;
+  padding: 36px 32px;
   border-top: 1.5px solid rgba(96, 165, 250, 0.35);
   border-left: 1.5px solid rgba(129, 140, 248, 0.22);
   border-right: 1.5px solid rgba(15, 23, 42, 0.9);
@@ -68,6 +68,11 @@
   box-shadow: 0 18px 32px rgba(2, 6, 23, 0.38);
   box-sizing: border-box;
   width: 100%;
+
+  /* Flexbox vertical centering */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .info-heading {
@@ -99,7 +104,7 @@
   border-radius: 12px;
   border: 1px solid rgba(96, 165, 250, 0.18);
   transition: transform 0.2s ease, border-color 0.2s ease;
-  min-width: 0; /* Enables flex children text truncation/wrapping */
+  min-width: 0;
 }
 
 .info-card:hover {
@@ -118,7 +123,7 @@
 .info-details {
   display: flex;
   flex-direction: column;
-  min-width: 0; /* Prevents overflow */
+  min-width: 0;
   overflow: hidden;
 }
 
@@ -136,7 +141,7 @@
   color: #f8fafc;
   text-decoration: none;
   font-weight: 500;
-  word-break: break-word; /* Wraps email cleanly on mobile */
+  word-break: break-word;
   overflow-wrap: anywhere;
 }
 
@@ -254,6 +259,7 @@
   .contact-layout {
     grid-template-columns: 1fr;
     gap: 24px;
+    align-items: flex-start;
   }
 
   .contact-title {
@@ -262,14 +268,18 @@
 
   .contact-info-panel,
   .contact-form-panel {
-    padding: 22px 18px;
+    padding: 24px 20px;
+  }
+
+  .contact-info-panel {
+    justify-content: flex-start;
   }
 }
 
 @media (max-width: 480px) {
   .contact-info-panel,
   .contact-form-panel {
-    padding: 18px 14px;
+    padding: 20px 16px;
   }
 
   .info-card {

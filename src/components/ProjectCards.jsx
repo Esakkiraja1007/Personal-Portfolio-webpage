@@ -3,6 +3,7 @@ import '../style/ProjectCards.css';
 
 export default function ProjectCards({
   title = 'Project Title',
+  image = '',
   description = 'Short project overview...',
   techStack = [],
   githubUrl = '#',
@@ -11,6 +12,13 @@ export default function ProjectCards({
   return (
     <div className="project-card">
       <div className="project-body">
+        {/* Project Thumbnail Image */}
+        {image && (
+          <div className="project-image-wrapper">
+            <img src={image} alt={`${title} preview`} className="project-image" loading="lazy" />
+          </div>
+        )}
+
         <div className="project-header">
           <h3 className="project-title">{title}</h3>
         </div>
@@ -27,7 +35,7 @@ export default function ProjectCards({
         </div>
       </div>
 
-      {/* Action Buttons: Positioned Below Tech Stack */}
+      {/* Action Buttons */}
       <div className="project-actions">
         <a
           href={githubUrl}
@@ -47,7 +55,7 @@ export default function ProjectCards({
             className="action-link live-btn"
             title="View Live Site"
           >
-            Live Demo &rarr;
+            Live Demo &nearr;
           </a>
         )}
       </div>

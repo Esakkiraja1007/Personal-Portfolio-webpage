@@ -62,7 +62,7 @@ export default function Contact() {
      
       icon: '📍',
       title: 'Location',
-      value: 'Tamil Nadu, India',
+      value: 'Tirunelveli, Tamil Nadu, India',
       href: null,
     },
   ];
@@ -124,7 +124,7 @@ export default function Contact() {
                 id="name"
                 name="name"
                 className="form-input"
-                placeholder="e.g. John Doe"
+                placeholder="Enter your Name"
                 value={formData.name}
                 onChange={handleChange}
                 required
@@ -140,7 +140,7 @@ export default function Contact() {
                 id="email"
                 name="email"
                 className="form-input"
-                placeholder="e.g. john@example.com"
+                placeholder="Enter your email"
                 value={formData.email}
                 onChange={handleChange}
                 required

@@ -56,12 +56,6 @@ export default function About() {
             Git/GitHub, and I’m currently developing my skills in React.js.
           </p>
           <p className="bio-text">
-            I enjoy turning ideas and designs into clean, functional interfaces and
-            learning how modern frontend applications are built. Through my projects
-            and frontend internship experience, I’ve worked with responsive layouts,
-            DOM manipulation, API integration, and Git-based development workflows.
-          </p>
-          <p className="bio-text">
             I’m currently looking for an entry-level Frontend Developer or React
             Developer opportunity where I can contribute to real-world projects,
             strengthen my software engineering skills, and grow into a full-stack developer.
