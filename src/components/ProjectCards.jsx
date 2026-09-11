@@ -55,7 +55,7 @@ export default function ProjectCards({
             className="action-link live-btn"
             title="View Live Site"
           >
-            Live Demo &nearr;
+            Live Demo &rarr;
           </a>
         )}
       </div>
