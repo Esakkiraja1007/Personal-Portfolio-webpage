@@ -15,10 +15,26 @@ export default function Skills() {
       category: 'Languages',
       icon: '⚡',
     },
-
-    // 2. Web & Frontend (Merged)
     {
       id: 2,
+      name: 'Java',
+      level: 'Intermediate',
+      percentage: 75,
+      category: 'Languages',
+      icon: '☕',
+    },
+    {
+      id: 3,
+      name: 'SQL (Query Language)',
+      level: 'Intermediate',
+      percentage: 80,
+      category: 'Languages',
+      icon: '📝',
+    },
+
+    // 2. Web & Frontend
+    {
+      id: 4,
       name: 'HTML5 Semantic Structure',
       level: 'Advanced',
       percentage: 92,
@@ -26,7 +42,7 @@ export default function Skills() {
       icon: '🌐',
     },
     {
-      id: 3,
+      id: 5,
       name: 'CSS3 Flexbox & Grid',
       level: 'Advanced',
       percentage: 88,
@@ -34,7 +50,7 @@ export default function Skills() {
       icon: '🎨',
     },
     {
-      id: 4,
+      id: 6,
       name: 'Responsive Web Design',
       level: 'Advanced',
       percentage: 90,
@@ -42,7 +58,7 @@ export default function Skills() {
       icon: '📱',
     },
     {
-      id: 5,
+      id: 7,
       name: 'Fetch API & JSON Handling',
       level: 'Intermediate',
       percentage: 84,
@@ -50,7 +66,7 @@ export default function Skills() {
       icon: '🔄',
     },
     {
-      id: 6,
+      id: 8,
       name: 'DOM Manipulation & Local Storage',
       level: 'Intermediate',
       percentage: 82,
@@ -60,7 +76,7 @@ export default function Skills() {
 
     // 3. Frameworks
     {
-      id: 7,
+      id: 9,
       name: 'React.js',
       level: 'Intermediate',
       percentage: 82,
@@ -68,7 +84,7 @@ export default function Skills() {
       icon: '⚛️',
     },
     {
-      id: 8,
+      id: 10,
       name: 'Bootstrap 5',
       level: 'Advanced',
       percentage: 88,
@@ -76,9 +92,19 @@ export default function Skills() {
       icon: '📦',
     },
 
-    // 4. Tools & Workflow
+    // 4. Database
     {
-      id: 9,
+      id: 11,
+      name: 'MySQL (Relational Database)',
+      level: 'Intermediate',
+      percentage: 78,
+      category: 'Database',
+      icon: '🐬',
+    },
+
+    // 5. Tools & Workflow
+    {
+      id: 12,
       name: 'Git & GitHub',
       level: 'Intermediate',
       percentage: 80,
@@ -86,7 +112,7 @@ export default function Skills() {
       icon: '🐙',
     },
     {
-      id: 10,
+      id: 13,
       name: 'Vite Build Tooling',
       level: 'Intermediate',
       percentage: 78,
@@ -94,7 +120,7 @@ export default function Skills() {
       icon: '⚡',
     },
     {
-      id: 11,
+      id: 14,
       name: 'Vercel Deployment',
       level: 'Intermediate',
       percentage: 85,
@@ -103,12 +129,12 @@ export default function Skills() {
     },
   ];
 
-  // Updated filter buttons with Web & Frontend combined
   const categories = [
     'All',
     'Languages',
     'Web & Frontend',
     'Frameworks',
+    'Database',
     'Tools & Workflow',
   ];
 
